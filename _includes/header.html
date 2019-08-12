@@ -1,15 +1,17 @@
-<aside>
-    <div class="container">
-        <nav>
-            <ul>
-                {% for page in site.pages %} {% if page.title %}
-                <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                {% endif %} {% endfor %}
-                <li><a href="{{ "/blog" | prepend: site.baseurl }}">Blog</a></li>
-            </ul>
-        </nav>
-    </div>
-</aside>
 <header>
-    <h1><a href="{{ site.baseurl }}">{{ site.title }}</a></h1>
+    <div class="container">
+        <div class="lead">
+            <h1><a href="{{ "/" | prepend: site.baseurl }}">{{ site.logo }}</a></h1>
+            <nav>
+                <ul>
+                    {% for page in site.pages %} {% if page.title %}
+                    <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
+                    {% endif %} {% endfor %}
+                    <li> | </li>
+                    <li><a href="{{ "/tech" | prepend: site.baseurl }}">Tech</a></li>
+                    <li><a href="{{ "/blog" | prepend: site.baseurl }}">Life + Art</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
 </header>

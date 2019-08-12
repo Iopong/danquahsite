@@ -1,9 +1,12 @@
 ---
 layout: page
 title: Contact
-permalink: /contact/
+permalink: contact/
 ---
 
-Contact content goes here.
+How To Reach Me
 
-My e-mail is [email@something.com](mailto:email@something.com).
+My e-mail is [iopongkd@gmail.com](mailto:iopongkd@gmail.com).
+My GitHub is [GitHub][my-gitHub]
+
+[my-gitHub]: https://github.com/Iopong
